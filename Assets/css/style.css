@@ -81,6 +81,7 @@ div#footy {
      width: 400px;
  }
 
+ /* 375px iphone X */
 
 @media screen and (max-width: 375px) {
     .my-name {
@@ -132,5 +133,60 @@ div#footy {
      p {
          font-size: 9px;
          margin-right: 5px;
+     }
+ }
+
+ /* 414px iphone 8*/
+
+ @media screen and (max-width: 414px) {
+    .my-name {
+        font-size: 15px;
+    }
+}
+ @media screen and (max-width: 414px) {
+    .top-box { 
+        
+        font-size: 10px;
+
+       
+
+    } 
+ }
+ @media screen and (max-width: 414px) {
+     .screenshot {
+         width: 70px;
+     }
+ }
+
+ @media screen and (max-width: 414px){
+     #footy {
+         font-size: 8px;
+         padding-top: 50px;
+     }
+ }
+
+ @media screen and (max-width: 414px) {
+     * {
+         padding: 0px;
+     }
+ }
+
+ @media screen and (max-width: 414px) {
+     .subhead {
+         font-size: 15px;
+        margin-bottom: 50px;
+     }
+ }
+ 
+ @media screen and (max-width: 414px) {
+     p, .screenshot {
+         margin-left: 50px;
+         
+     }
+ }
+ @media screen and (max-width: 414px) {
+     p {
+         font-size: 5px;
+         margin-right: 2px;
      }
  }
