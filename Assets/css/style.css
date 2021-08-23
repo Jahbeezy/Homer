@@ -79,6 +79,11 @@ p, .screenshot {
     margin-left: 150px;
 }
 
+.boo {
+    margin-bottom: 50px;
+    padding-left: 30%;
+}
+
 .box {
     margin-top: 20%;
 }
@@ -124,6 +129,11 @@ div#footy {
     } 
  }
 
+ @media screen and (max-width: 414px) {
+     .content {
+         margin-left: 0;
+     }
+ }
 
  @media screen and (max-width: 414px) {
      .screenshot {
@@ -185,7 +195,7 @@ div#footy {
 }
  @media screen and (max-width: 375px) {
      .screenshot {
-         width: 130px;
+         width: 200px;
          margin-right: 49px;
      }
  }
@@ -194,6 +204,7 @@ div#footy {
     .nav-bar {
         justify-content: space-between;
         flex-wrap: wrap;
+        margin-right: 0%;
     }
  }
 
